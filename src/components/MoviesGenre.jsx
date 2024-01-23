@@ -6,9 +6,9 @@ const MoviesGenre = () => {
   return (
     <div>
         {
-            GenreList.genere.map((item,i)=>i<=4&&(
+            GenreList.genere.map((item,i)=>(
  <div >
-<h2 className='text-white text-[20px] font-bold'> {item.name} </h2>
+<h2 className='text-white text-[26px] m-8 font-bold'> {item.name} </h2>
 <MovieList genreId ={item.id}/>
  </div>
          

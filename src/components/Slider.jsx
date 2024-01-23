@@ -28,7 +28,7 @@ ele.scrollLeft-=screenWidth-100;
   return (
     <div>
       <div>
-<HiChevronLeft className= ' hidden md:block text-black text-[30px] absolute m-8 mt-[150px] cursor-pointer' onClick={()=>slideLeft(MovieRef.current)}/>
+<HiChevronLeft className= ' hidden md:block text-white text-[30px] absolute m-8 mt-[150px] cursor-pointer' onClick={()=>slideLeft(MovieRef.current)}/>
       <div className='flex overflow-x-auto scrollbar-hide px-16 scroll-smooth' ref={MovieRef}>
 
 {
@@ -38,7 +38,7 @@ ele.scrollLeft-=screenWidth-100;
     ))
 }
         </div> 
-    <HiChevronRight className= 'hidden md:block text-black text-[30px] absolute m-8 mt-[-150px] cursor-pointer right-3' onClick={()=>slideRight(MovieRef.current)}/>
+    <HiChevronRight className= 'hidden md:block text-white text-[30px] absolute m-8 mt-[-150px] cursor-pointer right-3' onClick={()=>slideRight(MovieRef.current)}/>
     </div>
 
       </div>
